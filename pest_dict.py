@@ -1,0 +1,9 @@
+def pesticide_details():
+	d={'aphids':{'link':'httpswww.amazon.inSparkenzy-Bottle-Control-Organic-PresseddpB07NQDK26Mref=asc_df_B07NQDK26Mtag=googleshopdes-21&linkCode=df0&hvadid=397081941104&hvpos=&hvnetw=g&hvrand=18311193994369795050&hvpone=&hvptwo=&hvqmt=&h','price':299,'review':'Its a good quality spray pump and neem oil is 100% pure,it protected my plants from insects and unwanted creatures and can also be used for skin and hairs...thankyou Amazon'},
+	'gally flies':{'link':'https://agribegri.com/products/cyto-plus-550-ml--supplier-and-manufacturer-of-pesticide.php','price':625,'review':'Really good product in my chilli i have used it and got really good result'},
+	'leaf feeding caterpillar':{'link':'https://www.amazon.in/Go-Garden-Neem-Plant-Control/dp/B07SZPWT27/ref=asc_df_B07SZPWT27/?tag=googleshopdes-21&linkCode=df0&hvadid=397080733139&hvpos=1o1&hvnetw=g&hvrand=6791653358201517862&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9040231&hvtargid=pla-838203670548&psc=1&ext_vrnc=hi','price':289,'review':'Used twice, its effective for insects. My pots are infected with snails and some white bugs which were eating roots, now it is in control. I mixed it with water and spread it without soaping solution over potting soil.'},
+	'scrab beetle':{'link':'https://www.amazon.in/Abtec-Bio-Neem-Plant-Pesticide/dp/B072HZSPDL/ref=asc_df_B072HZSPDL/?tag=googleshopdes-21&linkCode=df0&hvadid=397080596537&hvpos=1o7&hvnetw=g&hvrand=6559623091670142001&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9040231&hvtargid=pla-404894201494&psc=1&ext_vrnc=hi','price':'189','review':'Have used quite a few neem.pesticide which I bought from store. I can say that this one is the best so far. Works well. I sparay every 10 days.i am posting review after using for about 2 months'}}
+	y=d['aphids']
+	print(y['link'])
+	return d
+print(pesticide_details())
